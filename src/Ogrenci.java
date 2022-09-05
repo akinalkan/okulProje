@@ -120,8 +120,8 @@ public class Ogrenci {
 
         try {
             BufferedWriter write = new BufferedWriter(new FileWriter("src/ogrenciler1.txt", true));
-            write.newLine();
-            write.write(tcNo + ", " + isim+", "+soyisim+", "+dYili+", "
+            //write.newLine();
+            write.write("\n"+tcNo + ", " + isim+", "+soyisim+", "+dYili+", "
                     +okulNo+", "+sinif+", "+sube);
             System.out.println("Dosyaya yazildi");
             write.close();
